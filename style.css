@@ -1,0 +1,111 @@
+body {
+  margin: auto;
+  background-color: black;
+}
+
+ul {
+  text-decoration: none;
+  padding: 4px;
+}
+
+li {
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+
+
+.spacecliff {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.myName {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+ h1 {
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.myName h2 {
+  color: tomato;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.skills h1 {
+  color: black;
+  background-color: orange;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.css-image {
+  width: 100%;
+}
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.work h1 {
+  color: black;
+  background-color: orange;
+  padding: 10px;
+}
+
+.footer h2 {
+  color: black;
+  background-color: orange;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+
+  }
+
+  .grid-container2 {
+    grid-template-columns: auto;
+
+  }
+
+  .spacecliff {
+    margin-left: 25%;
+    width: 50%;
+  }
+}
